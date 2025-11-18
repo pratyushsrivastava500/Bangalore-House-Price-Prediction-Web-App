@@ -191,12 +191,7 @@ Area: 1500 sqft
 BHK: 3
 Bathrooms: 3
 Result: ₹65.20 Lakhs
-```
-│  • Data transformation     • One-hot encoding               │
-└─────────────────────────────────────────────────────────────┘
-                            ↓
-┌─────────────────────────────────────────────────────────────┐
-│            CONFIGURATION LAYER (config/config.py)           │
+
 
 ## 🤖 Model Performance
 
