@@ -140,20 +140,30 @@ House-Price-Prediction-Web-App--Using-Streamlit/
 **Source:** Bangalore House Price Data
 
 **Statistics:**
-- **Records:** 13,320 properties
-- **Features:** 9 columns
-  - `location`: Property locality (240+ unique values)
-  - `size`: Number of BHK (1-10)
-  - `total_sqft`: Total area
-  - `bath`: Number of bathrooms
-  - `balcony`: Number of balconies
-  - `price`: Target variable (in Lakhs)
 
-**Preprocessing:**
+| Attribute | Details |
+|-----------|---------|
+| **Records** | 13,320 properties |
+| **Features** | 9 columns |
+| **Target Variable** | Price (in Lakhs ₹) |
+
+**Key Features:**
+
+| Feature | Description | Type | Example |
+|---------|-------------|------|---------|
+| `location` | Property locality | Categorical | Whitefield, Electronic City |
+| `size` | Number of BHK | Categorical | 2 BHK, 3 BHK |
+| `total_sqft` | Total area | Numeric | 1200, 1500 |
+| `bath` | Number of bathrooms | Numeric | 2, 3 |
+| `balcony` | Number of balconies | Numeric | 1, 2 |
+| `price` | Price in Lakhs | Numeric | 75.5, 120.0 |
+
+**Preprocessing Steps:**
 - Removed duplicates and missing values
 - Outlier detection using domain knowledge
 - Feature engineering (price per sqft, BHK extraction)
 - Location encoding with one-hot encoding
+- Final features: 243 (3 numeric + 240 location dummies)
 
 ## 📖 Usage Guide
 
@@ -192,11 +202,6 @@ BHK: 3
 Bathrooms: 3
 Result: ₹65.20 Lakhs
 ```
-│  • Data transformation     • One-hot encoding               │
-└─────────────────────────────────────────────────────────────┘
-                            ↓
-┌─────────────────────────────────────────────────────────────┐
-│            CONFIGURATION LAYER (config/config.py)           │
 
 ## 🤖 Model Performance
 
@@ -211,6 +216,7 @@ Result: ₹65.20 Lakhs
 | **Training Time** | < 1 second |
 
 **Top Predictive Features:**
+
 1. Total Square Feet (40%)
 2. Location (35%)
 3. BHK (15%)
