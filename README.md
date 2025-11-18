@@ -10,7 +10,7 @@ A production-ready **machine learning web application** built with **Streamlit**
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen)
 
-[Live Demo](#) | [Documentation](#-module-documentation) | [Report Bug](https://github.com/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit/issues) | [Request Feature](https://github.com/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit/issues)
+[Documentation](#-module-documentation) | [Report Bug](https://github.com/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit/issues) | [Request Feature](https://github.com/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit/issues)
 
 </div>
 
@@ -1072,9 +1072,8 @@ SOFTWARE.
 **Pratyush Srivastava**
 
 - 🌐 GitHub: [@pratyushsrivastava500](https://github.com/pratyushsrivastava500)
-- 💼 LinkedIn: [Connect with me](https://linkedin.com/in/pratyushsrivastava500) *(update link)*
-- 📧 Email: [Contact me](mailto:your.email@example.com) *(update email)*
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle) *(optional)*
+- 💼 LinkedIn: [Connect with me](https://linkedin.com/in/yourprofile)
+- 📧 Email: your.email@example.com
 
 ### About Me
 
@@ -1094,43 +1093,6 @@ I'm a passionate developer interested in Machine Learning, Data Science, and Web
 ---
 
 <div align="center">
-
-## 🙏 Acknowledgments
-
-This project was made possible by:
-
-- **Dataset**: Bangalore House Price Data contributors
-- **Streamlit Team**: For the amazing framework
-- **Scikit-learn**: For powerful ML tools
-- **Open Source Community**: For invaluable libraries and tools
-
-Special thanks to all contributors and users of this project!
-
----
-
-## ⭐ Show Your Support
-
-If this project helped you or you found it interesting:
-
-- ⭐ **Star this repository**
-- 🍴 **Fork it for your own projects**
-- 🐛 **Report issues** you find
-- 💡 **Suggest new features**
-- 📢 **Share it** with others
-
----
-
-## 📊 Project Statistics
-
-![GitHub stars](https://img.shields.io/github/stars/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit?style=social)
-![GitHub forks](https://img.shields.io/github/forks/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit?style=social)
-
-![GitHub issues](https://img.shields.io/github/issues/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit)
-![GitHub last commit](https://img.shields.io/github/last-commit/pratyushsrivastava500/House-Price-Prediction-Web-App--Using-Streamlit)
-
----
 
 **Made with ❤️ and Python | © 2025 Pratyush Srivastava**
 
